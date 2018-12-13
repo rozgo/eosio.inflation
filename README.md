@@ -28,3 +28,4 @@ cleos get table fud.bank fud.bank issuance
 cleos get table fud.token FUD stat
 cleos push action fud.bank inflate '[]' -p fud.bank@active
 ```
+`inflate` action can be called as many times as you want. Can be scheduled with a cron job daily, weekly, monthly, etc.
